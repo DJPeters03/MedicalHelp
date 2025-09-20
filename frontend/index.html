@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Disease Treatment Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Disease Treatment Game</h1>
+      <p class="subtitle">
+        Select the best treatment based on the symptoms shown below
+      </p>
+    </header>
+    <main>
+      <section id="patient-section">
+        <h2>Current Patient</h2>
+        <p id="patient-name"></p>
+        <ul id="symptom-list"></ul>
+        <div id="treatment-form">
+          <label for="med-select">Choose a treatment:</label>
+          <select id="med-select"></select>
+          <button id="treat-btn">Treat Patient</button>
+        </div>
+      </section>
+
+      <section id="result-section" hidden>
+        <h2>Result</h2>
+        <p id="result-message"></p>
+        <button id="next-btn">Next Patient</button>
+      </section>
+
+      <section id="score-section">
+        <h3>Score</h3>
+        <p>
+          Correct:
+          <span id="correct-score">0</span>
+          |
+          Incorrect:
+          <span id="incorrect-score">0</span>
+        </p>
+      </section>
+    </main>
+    <footer>
+      <p class="disclaimer">
+        This game is a fictional simulation and is not meant to provide medical
+        advice.
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

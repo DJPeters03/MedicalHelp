@@ -1,0 +1,83 @@
+/* Styles for the Disease Treatment Game */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+header {
+  background-color: #4a90e2;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.subtitle {
+  margin-top: 0;
+  font-size: 1rem;
+  opacity: 0.85;
+}
+
+main {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+  margin-top: 0;
+}
+
+#patient-section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+#treatment-form {
+  margin-top: 10px;
+}
+
+#treatment-form select {
+  margin-right: 10px;
+  padding: 4px;
+}
+
+button {
+  padding: 6px 14px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4a90e2;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3f7fc6;
+}
+
+#result-section {
+  margin-top: 20px;
+}
+
+#score-section {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.disclaimer {
+  margin: 0;
+}
